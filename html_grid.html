@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<!-- 
+A simple example on how to create a grid using div's and css. 
+
+Author:
+Ramin Rakhamimov
+ramin32 at gmail dot com
+http://raminrakhamimov.com
+-->
+
+<html>
+    <head>
+        <title>Grid Example</title>
+        <style type="text/css">
+            body {
+                color: black;
+                background-color: #d8da3d 
+            }
+            ul
+            {
+                width:900px;
+                list-style-type:none;
+            }
+            li {
+                text-align:center;
+                display: inline-block;
+                padding:5px;
+            }
+            img {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <script type="text/javascript">
+                for(var i=0; i<20; i++) {
+                    document.write('<li> \
+                            <img src="http://www.geekestateblog.com/wp-content/uploads/2007/08/geek.jpg" height="100"/> \
+                                username \
+                            </li>');
+                }
+            </script>
+        </ul>
+    </body>
+
+</html>
